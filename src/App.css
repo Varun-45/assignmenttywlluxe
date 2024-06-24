@@ -1,0 +1,12 @@
+.box {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px
+}
